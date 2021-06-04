@@ -1,3 +1,5 @@
+                            /* CSS RESET */
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -66,17 +68,54 @@ p {
     line-height: 1.4;
 }
 
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> START OF CSS */                    
+
+
+
+                            /* CONTAINER */
 .container {
     width: 800px;
     margin: 0 auto;
+    padding-top: 30px;
+
 }
 
+
+                            /* HEADER */
+
+header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    margin-bottom: 40px;
+}
+header>nav {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+header>nav>a {
+    text-align: center;
+    width: 100%;
+    color: #000;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+
+
+
+                            /* TOP */
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    text-align: justify;
 }
 
 .top-content .text-container {
@@ -84,6 +123,9 @@ p {
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+
+
+                            /* MIDDLE */
 
 .middle-content {
     margin-bottom: 20px;
@@ -112,6 +154,43 @@ p {
     justify-content: center;
 }
 
+                            /* Box Colors - By ID */
+
+#box1 {
+    background: teal;
+}
+#box2 {
+    background: gold;
+}
+#box3 {
+    background: cadetblue;
+}
+#box4 {
+    background: coral;
+}
+#box5 {
+    background: crimson;
+}
+#box6 {
+    background: forestgreen;
+}
+#box7 {
+    background: darkorchid;
+}
+#box8 {
+    background: hotpink;
+}
+#box9 {
+    background: indigo;
+}
+#box10 {
+    background: dodgerblue;
+}
+                            
+                            
+
+                            /* BOTTOM */
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -125,6 +204,23 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
+
+
+
+                            /* TEXT-CONTAINER */
+
+.text-container {
+    margin-top: 20px;
+}
+.text-container h2 {
+    padding-bottom: 15px;
+}
+
+
+
+
+                            /* FOOTER */
 
 footer {
     width: 100%;
@@ -143,4 +239,81 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+                            /* ABOUT PAGE */
+
+.about-page>.top-content {
+    padding: 10px;
+}
+
+.about-page>.top-content h2 {
+    text-align: left;
+    width: 100%;
+    font-size: 1.2rem;
+    padding-top: 5px;
+}
+
+.about-page>.top-content p {
+    text-align: left;
+    width: 100%;
+    font-size: 1rem;
+    padding: 10px;
+}
+.about-page>.middle-content {
+    margin-top: 0;
+    border-bottom: none;
+}
+
+
+                            /* SBS */
+.sbs {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+
+                            /* CARD */
+.card {
+    width: 48%;
+    max-width: 48%;
+    text-align: center;
+    border-bottom: dashed 1px #000;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+}
+.card h2 {
+    text-align: left;
+    padding: 10px;
+    font-weight: 700;
+}
+.card p {
+    text-align: left;
+    padding: 10px;
+    padding-top: 0;
+}
+.card a {
+    padding: 8px 15px;
+    border: solid 2px #000;
+    border-radius: 10px;
+    margin-top: 15px;
+    color: #000;
+    text-decoration: none;
+    display: block;
+    width: 33%;
+}
+
+
+                            /* ABOUT PAGE > BOTTOM */
+.about-page>.bottom-content {
+    display: block;
+    padding: 5px;
+    padding-top: 0;
+}
+.about-page>.bottom-content h2{
+    font-size: 1.2rem;
 }
