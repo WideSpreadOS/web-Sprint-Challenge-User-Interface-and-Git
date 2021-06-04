@@ -65,7 +65,9 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
-
+body {
+    background: lime;
+}
 .container {
     width: 800px;
     margin: 0 auto;
@@ -143,4 +145,72 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+/* Box Colors - By Class */
+
+.box1 {
+    background: teal;
+}
+.box2 {
+    background: gold;
+}
+.box3 {
+    background: cadetblue;
+}
+.box4 {
+    background: coral;
+}
+.box5 {
+    background: crimson;
+}
+.box6 {
+    background: forestgreen;
+}
+.box7 {
+    background: darkorchid;
+}
+.box8 {
+    background: hotpink;
+}
+.box9 {
+    background: indigo;
+}
+.box10 {
+    background: dodgerblue;
+}
+
+
+/* Box Colors - By ID */
+
+#box1 {
+    background: teal;
+}
+#box2 {
+    background: gold;
+}
+#box3 {
+    background: cadetblue;
+}
+#box4 {
+    background: coral;
+}
+#box5 {
+    background: crimson;
+}
+#box6 {
+    background: forestgreen;
+}
+#box7 {
+    background: darkorchid;
+}
+#box8 {
+    background: hotpink;
+}
+#box9 {
+    background: indigo;
+}
+#box10 {
+    background: dodgerblue;
 }
