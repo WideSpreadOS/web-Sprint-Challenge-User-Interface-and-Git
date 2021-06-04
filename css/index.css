@@ -1,4 +1,4 @@
-                            /*  */
+                            /* CSS RESET */
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -68,6 +68,12 @@ p {
     line-height: 1.4;
 }
 
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> START OF CSS */                    
+
+
+
+                            /* CONTAINER */
 .container {
     width: 800px;
     margin: 0 auto;
@@ -119,8 +125,6 @@ header>nav>a {
 }
 
 
-
-
                             /* MIDDLE */
 
 .middle-content {
@@ -150,8 +154,40 @@ header>nav>a {
     justify-content: center;
 }
 
+                            /* Box Colors - By ID */
 
-
+#box1 {
+    background: teal;
+}
+#box2 {
+    background: gold;
+}
+#box3 {
+    background: cadetblue;
+}
+#box4 {
+    background: coral;
+}
+#box5 {
+    background: crimson;
+}
+#box6 {
+    background: forestgreen;
+}
+#box7 {
+    background: darkorchid;
+}
+#box8 {
+    background: hotpink;
+}
+#box9 {
+    background: indigo;
+}
+#box10 {
+    background: dodgerblue;
+}
+                            
+                            
 
                             /* BOTTOM */
 
@@ -205,49 +241,8 @@ footer nav a {
     text-decoration: none;
 }
 
-
-
-
-                            /* Box Colors - By ID */
-
-#box1 {
-    background: teal;
-}
-#box2 {
-    background: gold;
-}
-#box3 {
-    background: cadetblue;
-}
-#box4 {
-    background: coral;
-}
-#box5 {
-    background: crimson;
-}
-#box6 {
-    background: forestgreen;
-}
-#box7 {
-    background: darkorchid;
-}
-#box8 {
-    background: hotpink;
-}
-#box9 {
-    background: indigo;
-}
-#box10 {
-    background: dodgerblue;
-}
-
-
-
                             /* ABOUT PAGE */
 
-.about-page {
-
-}
 .about-page>.top-content {
     padding: 10px;
 }
@@ -269,6 +264,8 @@ footer nav a {
     margin-top: 0;
     border-bottom: none;
 }
+
+
                             /* SBS */
 .sbs {
     width: 100%;
@@ -278,6 +275,7 @@ footer nav a {
     justify-content: space-between;
     padding-top: 10px;
 }
+
 
                             /* CARD */
 .card {
@@ -309,6 +307,8 @@ footer nav a {
     width: 33%;
 }
 
+
+                            /* ABOUT PAGE > BOTTOM */
 .about-page>.bottom-content {
     display: block;
     padding: 5px;
